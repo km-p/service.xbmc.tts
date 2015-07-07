@@ -613,3 +613,12 @@ msgstr ""
 msgctxt "#32201"
 msgid "Subtitles dialog"
 msgstr ""
+
+msgctxt "#32202"
+msgid "Sound Output Device"
+msgstr ""
+
+msgctxt "#32203"
+msgid "No special device / default"
+msgstr ""
+

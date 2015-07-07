@@ -23,6 +23,10 @@ from selectdialog import SelectDialogReader
 from yesnodialog import YesNoDialogReader
 from videoinfodialog import VideoInfoDialogReader
 from subtitlesdialog import SubtitlesDialogReader
+
+# km-p 201507
+from lib import util
+
 READERS = (
     KeymapKeyInputReader,
     DefaultWindowReader,
@@ -108,6 +112,9 @@ READERS_MAP = {}
 for r in READERS: READERS_MAP[r.ID] = r
 
 def getWindowReader(winID):
+    # km-p 201507 logging added
+    util.LOG ("getWindowReader ({})".format (winID))
+
     reader = xbmc.getInfoLabel('Window({0}).Property(TTS.READER)'.format(winID))
     if reader and reader in READERS_MAP:
         return READERS_MAP[reader]
