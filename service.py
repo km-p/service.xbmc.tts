@@ -102,11 +102,15 @@ class TTSService(xbmc.Monitor):
             args = json.loads(data)
             if not args: return
             backend = args.get('backend')
-            util.selectPlayer(backend)
+            # km-p 201507 -> runInThread for TTS (didn't received the notification otherwise...)
+            #util.selectPlayer(backend)
+            util.runInThread(util.selectPlayer, (backend, ), 'SETTINGS.PLAYER_DIALOG')
         elif command == 'SETTINGS.SETTING_DIALOG':
             if not data: return
             args = json.loads(data)
-            util.selectSetting(*args)
+            #util.selectSetting(*args)
+            #201507 km-p -> runInThread for TTS (didn't received the notification otherwise...)
+            util.runInThread (util.selectSetting, args, 'SETTINGS.SETTING_DIALOG')
 #        elif command.startswith('keymap.'): #Not using because will import keymapeditor into running service. May need if RunScript is not working as was my spontaneous experience
 #            command = command[7:]
 #            from lib import keymapeditor

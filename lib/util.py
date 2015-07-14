@@ -237,7 +237,7 @@ def selectPlayer(provider):
     LOG('Player for {0} set to: {1}'.format(provider,player))
     setSetting('player.{0}'.format(provider),player)
 
-@busyDialog    
+@busyDialog
 def selectSetting(provider,setting,*args):
     import xbmcgui
     import backends
