@@ -131,7 +131,7 @@ msgstr "Optionen"
 
 msgctxt "#32030"
 msgid "Keymap"
-msgstr "Tastenmapping"
+msgstr "Tastenzuordnung"
 
 msgctxt "#32031"
 msgid "Advanced"
@@ -143,482 +143,482 @@ msgstr "Deaktiviere Interface Reader"
 
 msgctxt "#32033"
 msgid "Speak Extra Item Information Automatically"
-msgstr ""
+msgstr "Automatische Ausgabe von Zusatzinformationen"
 
 msgctxt "#32034"
 msgid "Delay (seconds)"
-msgstr ""
+msgstr "Verzögerung (in Sekunden)"
 
 msgctxt "#32035"
 msgid "Speak Number Of Items For Lists"
-msgstr ""
+msgstr "Ausgabe der Anzahl von Elementen einer Liste"
 
 msgctxt "#32036"
 msgid "Speak Background Progress Updates"
-msgstr ""
+msgstr "Ausgabe von Fortschritt"
 
 msgctxt "#32037"
 msgid "Minimum Progress Update Interval (Seconds)"
-msgstr ""
+msgstr "Mindest-Intervall für Fortschritt (in Sekunden)"
 
 msgctxt "#32038"
 msgid "Speak When Media Playing"
-msgstr ""
+msgstr "Sprachausgabe während Medienausgabe"
 
 msgctxt "#32039"
 msgid "Install Default Keymap"
-msgstr ""
+msgstr "Installiere Standard Tastenzuordnung"
 
 msgctxt "#32040"
 msgid "Install Custom Keymap"
-msgstr ""
+msgstr "Installiere benutzerdefinierte Tastenzuordnung"
 
 msgctxt "#32041"
 msgid "Edit Custom Keymap"
-msgstr ""
+msgstr "Editiere benutzerdefinierte Tastenzuordnung"
 
 msgctxt "#32042"
 msgid "Reset Custom Keymap To Defaults"
-msgstr ""
+msgstr "Zurücksetzen der Tastenzuordnung auf Standardwerte"
 
 msgctxt "#32043"
 msgid "Remove Installed Keymap"
-msgstr ""
+msgstr "Entferne installierte Tastenzuordnung"
 
 msgctxt "#32044"
 msgid "Output .wav Files To tmpfs"
-msgstr ""
+msgstr "Ausgabe von WAV-Dateien auf tmpfs"
 
 msgctxt "#32045"
 msgid "Disable Broken TTS Engines"
-msgstr ""
+msgstr "Deaktivieren von nicht funktionierenden TTS Engines"
 
 msgctxt "#32046"
 msgid "Enable Debug Logging"
-msgstr ""
+msgstr "Aktivieren von Debug-Ausgabe"
 
 msgctxt "#32047"
 msgid "Override Poll Interval"
-msgstr ""
+msgstr "Überrollen des Abfrageintervalls"
 
 msgctxt "#32048"
 msgid "Poll Interval (ms)"
-msgstr ""
+msgstr "Abfrageintervall (ms)"
 
 
 msgctxt "#32100"
 msgid "Database scan started."
-msgstr ""
+msgstr "Datenbanksuche gestartet"
 
 msgctxt "#32101"
 msgid "Database scan finished."
-msgstr ""
+msgstr "Datenbanksuche beendet"
 
 msgctxt "#32102"
 msgid "Notice... Speech engine falling back to {0}"
-msgstr ""
+msgstr "Hinweis: Sprach-Engine auf {0} zurückgesetzt."
 
 msgctxt "#32103"
 msgid "Reason"
-msgstr ""
+msgstr "Grund"
 
 msgctxt "#32104"
 msgid "New T T S Version"
-msgstr ""
+msgstr "Neue TTS Version"
 
 msgctxt "#32105"
 msgid "Window"
-msgstr ""
+msgstr "Fenster"
 
 msgctxt "#32106"
 msgid "item"
-msgstr ""
+msgstr "Element"
 
 msgctxt "#32107"
 msgid "items"
-msgstr ""
+msgstr "Elemente"
 
 msgctxt "#32108"
 msgid "Season"
-msgstr ""
+msgstr "Serie"
 
 msgctxt "#32109"
 msgid "Episode"
-msgstr ""
+msgstr "Episode"
 
 msgctxt "#32110"
 msgid "Parent Directory"
-msgstr ""
+msgstr "Übergeordnetes Verzeichnis"
 
 msgctxt "#32111"
 msgid "Installed"
-msgstr ""
+msgstr "Installiert"
 
 msgctxt "#32112"
 msgid "Updated"
-msgstr ""
+msgstr "Aktualisiert"
 
 msgctxt "#32113"
 msgid "Default keymap installed successfully!"
-msgstr ""
+msgstr "Standard-Tastenzuordnung erfolgreich installiert!"
 
 msgctxt "#32114"
 msgid "Custom keymap installed or updated successfully!"
-msgstr ""
+msgstr "Benutzerdefinierte Tastenzuordnung erfolgreich installiert oder aktualisiert!"
 
 msgctxt "#32115"
 msgid "Custom keymap reset to defaults."
-msgstr ""
+msgstr "Tastenzuordnung auf Standardwerte zurückgesetzt"
 
 msgctxt "#32116"
 msgid "Removed"
-msgstr ""
+msgstr "Entfernt"
 
 msgctxt "#32117"
 msgid "Keymap removed."
-msgstr ""
+msgstr "Tastenzuordnung entfernt."
 
 msgctxt "#32118"
 msgid "Press the key you want to assign now."
-msgstr ""
+msgstr "Drücken Sie jetzt die Taste, die sie zuordnen möchten."
 
 msgctxt "#32119"
 msgid "Timeout in {0} seconds"
-msgstr ""
+msgstr "Zeitüberschreitung in {0} Sekunden"
 
 msgctxt "#32120"
 msgid "Importing P.V.R. E.P.G."
-msgstr ""
+msgstr "Importiere P.V.R. E.P.G."
 
 msgctxt "#32121"
 msgid "Loading P.V.R. E.P.G."
-msgstr ""
+msgstr "Lade P.V.R. E.P.G."
 
 msgctxt "#32122"
 msgid "Background Progress Started"
-msgstr ""
+msgstr "Hintergrund-Fortschritt gestartet"
 
 msgctxt "#32123"
 msgid "Background Progress Done"
-msgstr ""
+msgstr "Hintergrund-Fortschritt beendet"
 
 msgctxt "#32124"
 msgid "Press the key you want to assign now."
-msgstr ""
+msgstr "Drücken Sie jetzt die Taste, die sie zuordnen möchten."
 
 msgctxt "#32125"
 msgid "Live TV Settings"
-msgstr ""
+msgstr "Live TV Einstellungen"
 
 msgctxt "#32126"
 msgid "virtual keyboard"
-msgstr ""
+msgstr "Virtuelle Tastatur"
 
 msgctxt "#32127"
 msgid "volume bar"
-msgstr ""
+msgstr "Lautstärkeregler"
 
 msgctxt "#32128"
 msgid "context menu"
-msgstr ""
+msgstr "Context-Menü"
 
 msgctxt "#32129"
 msgid "info dialog"
-msgstr ""
+msgstr "Info Dialog"
 
 msgctxt "#32130"
 msgid "numeric input"
-msgstr ""
+msgstr "Numerische Eingabe"
 
 msgctxt "#32131"
 msgid "shutdown menu"
-msgstr ""
+msgstr "Menü Herunterfahren"
 
 msgctxt "#32132"
 msgid "player controls"
-msgstr ""
+msgstr "Player Controls"
 
 msgctxt "#32133"
 msgid "seek bar"
-msgstr ""
+msgstr "Suche"
 
 msgctxt "#32134"
 msgid "music OSD"
-msgstr ""
+msgstr "Musik OSD"
 
 msgctxt "#32135"
 msgid "visualisation preset list"
-msgstr ""
+msgstr "Visualisierung Voreinstellungen"
 
 msgctxt "#32136"
 msgid "OSD video settings"
-msgstr ""
+msgstr "OSD Video Einstellungen"
 
 msgctxt "#32137"
 msgid "OSD audio settings"
-msgstr ""
+msgstr "OSD Audio Einstellungen"
 
 msgctxt "#32138"
 msgid "video bookmarks"
-msgstr ""
+msgstr "Video Lesezeichen"
 
 msgctxt "#32139"
 msgid "file browser"
-msgstr ""
+msgstr "Dateiauswahl"
 
 msgctxt "#32140"
 msgid "network setup"
-msgstr ""
+msgstr "Netzwerksetup"
 
 msgctxt "#32141"
 msgid "media source"
-msgstr ""
+msgstr "Medienquelle"
 
 msgctxt "#32142"
 msgid "smart playlist editor"
-msgstr ""
+msgstr "Smarter Playlist Editor"
 
 msgctxt "#32143"
 msgid "busy dialog"
-msgstr ""
+msgstr "Beschäftigt Dialog"
 
 msgctxt "#32144"
 msgid "addon settings"
-msgstr ""
+msgstr "Addon Einstellungen"
 
 msgctxt "#32145"
 msgid "fullscreen info"
-msgstr ""
+msgstr "Vollbild Informationen"
 
 msgctxt "#32146"
 msgid "karaoke selector"
-msgstr ""
+msgstr "Karakoke Auswahl"
 
 msgctxt "#32147"
 msgid "karaoke large selector"
-msgstr ""
+msgstr "Karaoke Auswahl"
 
 msgctxt "#32148"
 msgid "slider dialog"
-msgstr ""
+msgstr "Slider Dialog"
 
 msgctxt "#32149"
 msgid "addon information"
-msgstr ""
+msgstr "Addon Information"
 
 msgctxt "#32150"
 msgid "text viewer"
-msgstr ""
+msgstr "Textanzeige"
 
 msgctxt "#32151"
 msgid "peripheral settings"
-msgstr ""
+msgstr "Peripheral Einstellungen"
 
 msgctxt "#32152"
 msgid "media filter"
-msgstr ""
+msgstr "Medienfilter"
 
 msgctxt "#32153"
 msgid "pvr"
-msgstr ""
+msgstr "pvr"
 
 msgctxt "#32154"
 msgid "pvr guide info"
-msgstr ""
+msgstr "pvr guide info"
 
 msgctxt "#32155"
 msgid "pvr recording info"
-msgstr ""
+msgstr "pvr recording info"
 
 msgctxt "#32156"
 msgid "pvr timer setting"
-msgstr ""
+msgstr "pvr timer Einstellungen"
 
 msgctxt "#32157"
 msgid "pvr group manager"
-msgstr ""
+msgstr "pvr group manager"
 
 msgctxt "#32158"
 msgid "pvr channel manager"
-msgstr ""
+msgstr "pvr channel manager"
 
 msgctxt "#32159"
 msgid "pvr guide search"
-msgstr ""
+msgstr "pvr guide search"
 
 msgctxt "#32160"
 msgid "pvr OSD channels"
-msgstr ""
+msgstr "pvr OSD channels"
 
 msgctxt "#32161"
 msgid "pvr OSD guide"
-msgstr ""
+msgstr "pvr OSD guide"
 
 msgctxt "#32162"
 msgid "virtual keyboard"
-msgstr ""
+msgstr "Virtuelle Tastatur"
 
 msgctxt "#32163"
 msgid "video menu"
-msgstr ""
+msgstr "Videomenü"
 
 msgctxt "#32164"
 msgid "PVR Client Specific Settings"
-msgstr ""
+msgstr "PVR Client Specific Settings"
 
 msgctxt "#32165"
 msgid "unknown"
-msgstr ""
+msgstr "unbekannt"
 
 msgctxt "#32166"
 msgid "Addons updated"
-msgstr ""
+msgstr "Addons aktualisiert"
 
 msgctxt "#32167"
 msgid "version"
-msgstr ""
+msgstr "Version"
 
 msgctxt "#32168"
 msgid "Notice"
-msgstr ""
+msgstr "Hinweis"
 
 msgctxt "#32169"
 msgid "Rewind"
-msgstr ""
+msgstr "Zurückspulen"
 
 msgctxt "#32170"
 msgid "Fast Forward"
-msgstr ""
+msgstr "Schneller Vorlauf"
 
 msgctxt "#32171"
 msgid "Channel"
-msgstr ""
+msgstr "Kanal"
 
 msgctxt "#32172"
 msgid "Sub-setting"
-msgstr ""
+msgstr "Untereinstellung"
 
 msgctxt "#32173"
 msgid "yes"
-msgstr ""
+msgstr "ja"
 
 msgctxt "#32174"
 msgid "no"
-msgstr ""
+msgstr "nein"
 
 msgctxt "#32175"
 msgid "section"
-msgstr ""
+msgstr "Abschnitt"
 
 msgctxt "#32176"
 msgid "area"
-msgstr ""
+msgstr "Bereich"
 
 msgctxt "#32177"
 msgid "space"
-msgstr ""
+msgstr "Platz"
 
 msgctxt "#32178"
 msgid "No text"
-msgstr ""
+msgstr "Kein Text"
 
 msgctxt "#32179"
 msgid "deleted"
-msgstr ""
+msgstr "gelöscht"
 
 msgctxt "#32180"
 msgid "Cannot adjust volume"
-msgstr ""
+msgstr "Lautstärke kann nicht angepasst werden"
 
 msgctxt "#32181"
 msgid "Choose Backend"
-msgstr ""
+msgstr "Wähle Backend"
 
 msgctxt "#32182"
 msgid "Not Available"
-msgstr ""
+msgstr "Nicht verfügbar"
 
 msgctxt "#32183"
 msgid "No players to select."
-msgstr ""
+msgstr "Keine Player zur Auswahl"
 
 msgctxt "#32184"
 msgid "Auto"
-msgstr ""
+msgstr "Auto"
 
 msgctxt "#32185"
 msgid "Choose Player"
-msgstr ""
+msgstr "Wähle Player"
 
 msgctxt "#32186"
 msgid "No options to select."
-msgstr ""
+msgstr "Keine Optionen zur Auswahl"
 
 msgctxt "#32187"
 msgid "Choose Option"
-msgstr ""
+msgstr "Wähle Option"
 
 msgctxt "#32188"
 msgid "PVR TV Channels"
-msgstr ""
+msgstr "PVR TV Channels"
 
 msgctxt "#32189"
 msgid "PVR TV Recordings"
-msgstr ""
+msgstr "PVR TV Recordings"
 
 msgctxt "#32190"
 msgid "PVR TV Guide"
-msgstr ""
+msgstr "PVR TV Guide"
 
 msgctxt "#32191"
 msgid "PVR TV Timers"
-msgstr ""
+msgstr "PVR TV Timers"
 
 msgctxt "#32192"
 msgid "PVR TV Search"
-msgstr ""
+msgstr "PVR TV Search"
 
 msgctxt "#32193"
 msgid "PVR Radio Channels"
-msgstr ""
+msgstr "PVR Radio Channels"
 
 msgctxt "#32194"
 msgid "PVR Radio Recordings"
-msgstr ""
+msgstr "PVR Radio Recordings"
 
 msgctxt "#32195"
 msgid "PVR Radio Guide"
-msgstr ""
+msgstr "PVR Radio Guide"
 
 msgctxt "#32196"
 msgid "PVR Radio Timers"
-msgstr ""
+msgstr "PVR Radio Timers"
 
 msgctxt "#32197"
 msgid "PVR Radio Search"
-msgstr ""
+msgstr "PVR Radio Search"
 
 msgctxt "#32198"
 msgid "watched"
-msgstr ""
+msgstr "gesehen"
 
 msgctxt "#32199"
 msgid "resumable"
-msgstr ""
+msgstr "fortsetzen möglich"
 
 msgctxt "#32200"
 msgid "selected"
-msgstr ""
+msgstr "ausgewählt"
 
 msgctxt "#32201"
 msgid "Subtitles dialog"
-msgstr ""
+msgstr "Untertitel Dialog"
 
 msgctxt "#32202"
 msgid "Sound Output Device"
-msgstr ""
+msgstr "Sound Ausgabegerät"
 
 msgctxt "#32203"
 msgid "No special device / default"
-msgstr ""
+msgstr "Standard, kein besonderes Gerät"
 
