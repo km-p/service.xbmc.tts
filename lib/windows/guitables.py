@@ -119,13 +119,19 @@ winNames = {    10000: 10000, #Home
 
 winTexts = {}
 
-winExtraTexts = {    10000:(555,'$INFO[System.Time]',8,'$INFO[Weather.Temperature]','$INFO[Weather.Conditions]'), #Home
-                    10146:(    21863, #Addon Info Dialog
-                            '$INFO[ListItem.Property(Addon.Creator)]',
-                            19114,
-                            '$INFO[ListItem.Property(Addon.Version)]',
-                            21821,'$INFO[ListItem.Property(Addon.Description)]'
-                    )
+winExtraTexts = {
+    #Home
+    10000: (
+        #555, '$INFO[System.Time]', 8, '$INFO[Weather.Temperature]', '$INFO[Weather.Conditions]'
+        555, '$INFO[System.Time]',
+        31023, '$INFO[MusicPlayer.Artist]', '$INFO[MusicPlayer.Album]', '$INFO[musicplayer.discnumber]', '$INFO[Player.Title]', '$INFO[Player.Time]', '$INFO[Player.Duration]'
+    ),
+    #Addon Info Dialog
+    10146: (
+        21863, '$INFO[ListItem.Property(Addon.Creator)]',
+        19114, '$INFO[ListItem.Property(Addon.Version)]',
+        21821, '$INFO[ListItem.Property(Addon.Description)]'
+    )
 }
 
 itemExtraTexts = {    }

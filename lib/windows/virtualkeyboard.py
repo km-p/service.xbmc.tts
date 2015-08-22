@@ -29,14 +29,33 @@ class VirtualKeyboardReader(WindowReaderBase):
         return self.winID == 10109 and '.' in text #Is numeric input with . in it, so must be IP
 
     def getEditText(self):
-        info = 'Control.GetLabel({0}).index(1)'.format(self.editID)
-        return xbmc.getInfoLabel(info).decode('utf-8')
+        util.LOG_DEBUG('VirtualKeyboardReader.getEditText; EditID={}'.format (self.editID))
+
+        # km-p  201508 fix -> retrieve control label or edit field
+        #   (editID = 4 => numeric input -> label)
+        #   (others (?) => edit field)
+
+        if self.editID == 4:
+            info = 'Control.GetLabel({0})'.format(self.editID)
+        else:
+            info = 'Control.GetLabel({0}).index(1)'.format(self.editID)
+
+        util.LOG_DEBUG('VirtualKeyboardReader.getEditText; info={}'.format (info))
+        #
+        # return xbmc.getInfoLabel(info).decode('utf-8')
+        infoLabelContent = xbmc.getInfoLabel (info).decode ('utf-8')
+        util.LOG_DEBUG('VirtualKeyboardreader.getEditText: infoLabelContent={}'.format(infoLabelContent))
+        return infoLabelContent
+
 #        t = xbmc.getInfoLabel(info).decode('utf-8')
 #        if t == info: return '' #To handle pre GetLabel().index() addition
 #        return t
 
     def getMonitoredText(self,isSpeaking=False):
         text = self.getEditText()
+
+        util.LOG_DEBUG('VirtualKeyboardreader.getMonitoredText: text={}'.format(text))
+
         if text != self.keyboardText:
             if not self.keyboardText and len(text) > 1:
                 self.keyboardText = text

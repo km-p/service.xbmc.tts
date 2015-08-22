@@ -113,7 +113,7 @@ class TTSService(xbmc.Monitor):
             util.runInThread (util.selectSetting, args, 'SETTINGS.SETTING_DIALOG')
 #        elif command.startswith('keymap.'): #Not using because will import keymapeditor into running service. May need if RunScript is not working as was my spontaneous experience
 #            command = command[7:]
-#            from lib import keymapeditor
+#            from libxxx import keymapeditor
 #            util.runInThread(keymapeditor.processCommand,(command,),name='keymap.INSTALL_DEFAULT')
 
     def reloadSettings(self):

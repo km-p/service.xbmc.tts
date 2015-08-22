@@ -2,6 +2,7 @@
 import xbmc
 
 from base import DefaultWindowReader, NullReader, KeymapKeyInputReader
+from home import HomeMenuReader
 from progressdialog import ProgressDialogReader
 from virtualkeyboard import VirtualKeyboardReader
 from virtualkeyboard import PVRSGuideSearchDialogReader
@@ -27,7 +28,10 @@ from subtitlesdialog import SubtitlesDialogReader
 # km-p 201507
 from lib import util
 
+# km-p 201508 added support for home screen reader...
+
 READERS = (
+    HomeMenuReader,
     KeymapKeyInputReader,
     DefaultWindowReader,
     NullReader,
@@ -55,6 +59,7 @@ READERS = (
 )
 
 READERS_WINID_MAP = {
+                10000: HomeMenuReader, # home screen
                 10004: SettingsReader, #settings
                 10012: SettingsReader, #picturesettings
                 10013: SettingsReader, #programsettings
@@ -113,7 +118,7 @@ for r in READERS: READERS_MAP[r.ID] = r
 
 def getWindowReader(winID):
     # km-p 201507 logging added
-    util.LOG ("getWindowReader ({})".format (winID))
+    util.LOG_DEBUG ("getWindowReader ({})".format (winID))
 
     reader = xbmc.getInfoLabel('Window({0}).Property(TTS.READER)'.format(winID))
     if reader and reader in READERS_MAP:

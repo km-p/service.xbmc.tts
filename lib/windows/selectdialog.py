@@ -12,8 +12,31 @@ class SelectDialogReader(WindowReaderBase):
 
     def getControlText(self,controlID):
         label = xbmc.getInfoLabel('System.CurrentControl').decode('utf-8')
-        selected = xbmc.getCondVisibility('Container({0}).ListItem.IsSelected'.format(controlID)) and ': {0}'.format(util.T(32200)) or ''
+        try:
+            util.LOG_DEBUG ('{}.{}: label={}'.format('SelectDialogReader', 'getControlText', label))
+        except:
+            pass
+
+        try:
+            selected = xbmc.getCondVisibility('Container({0}).ListItem.IsSelected'.format(controlID)) and ': {0}'.format(util.T(32200)) or ''
+        except:
+            selected = ''
+            try:
+                util.LOG_DEBUG('{}.{}: Error when getting selected value! (ControlID={}, Label={}'.format ('SelectDialogReader', 'getControlText', controlID, label))
+            except:
+                pass
+
+        try:
+            util.LOG_DEBUG ('{}.{}: selected={}'.format('SelectDialogReader', 'getControlText', selected))
+        except:
+            pass
+
         text = u'{0}{1}'.format(label,selected)
+        try:
+            util.LOG_DEBUG ('{}.{}: text={}'.format('SelectDialogReader', 'getControlText', text))
+        except:
+            pass
+
         return (text,text)
 
     def getWindowExtraTexts(self):

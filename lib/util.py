@@ -26,8 +26,19 @@ def ERROR(txt,hide_tb=False,notify=False):
     return short
 
 def LOG(message):
-    message = '{0}: {1}'.format(ADDON_ID,message)
-    xbmc.log(msg=message.encode("utf-8"), level=xbmc.LOGNOTICE)
+    ##message = '{0}: {1}'.format(ADDON_ID,message)
+    ##xbmc.log(msg=message.encode("utf-8"), level=xbmc.LOGNOTICE)
+    xbmcLog(message, xbmc.LOGNOTICE)
+
+# km-p 201508 added Log-Debug information
+def LOG_DEBUG (message):
+    ##message = '{}: {}'.format (ADDON_ID, message)
+    ##xbmc.log(msg=message.encode('utf-8'), level=xbmc.LOGDEBUG)
+    xbmcLog(message, xbmc.LOGDEBUG)
+
+def xbmcLog (message, logLevel):
+    message = '{}: {}'.format (ADDON_ID, message)
+    xbmc.log (msg=message.encode ('utf-8'), level=logLevel)
 
 def sleep(ms):
     xbmc.sleep(ms)
@@ -45,7 +56,7 @@ def profileDirectory():
     return xbmc.translatePath(xbmcaddon.Addon(ADDON_ID).getAddonInfo('profile')).decode('utf-8')
 
 def backendsDirectory():
-    return os.path.join(xbmc.translatePath(info('path')).decode('utf-8'),'lib','backends')
+    return os.path.join(xbmc.translatePath(info('path')).decode('utf-8'),'libxxx','backends')
 
 def tailXBMCLog(num_lines=10):
     with open(LOG_PATH, "r") as f:
